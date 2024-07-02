@@ -73,7 +73,7 @@
             $password = $_POST['password'];
 
             // Replace this with your actual username and password verification logic
-            if ($username === 'admin' && $password === 'password') {
+            if ($username === 'aa' && $password === 'aa') {
                 header('Location: index.php');
                 exit();
             } else {

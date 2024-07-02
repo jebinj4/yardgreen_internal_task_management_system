@@ -46,42 +46,7 @@
             <span class="Goodlook"></span>
         </div>
         <div class="menu-items">
-            <ul class="nav-links">
-                <li>
-                    <a href="index.html">
-                    <i class="uil uil-estate"></i>
-                    <span class="link-name">Dashboard</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="index.html">
-                    <i class="uil uil-user"></i>
-                    <span class="link-name">Users</span>
-                    </a>
-                </li>
-                <li>
-                    <a href="index.html">
-                    <i class="uil uil-check-square"></i>
-                    <span class="link-name">Task</span>
-                    </a>
-                </li>
-            </ul>
-            
-            <ul class="logout-mode" style="margin-bottom: 35px;">
-                <li><a href="signup/index1.html">
-                    <i class="uil uil-signout"></i>
-                    <span class="link-name">Logout</span>
-                </a></li>
-                <li class="mode">
-                    <a href="#">
-                        <i class="uil uil-moon"></i>
-                    <span class="link-name">Dark Mode</span>
-                </a>
-                <div class="mode-toggle">
-                  <span class="switch"></span>
-                </div>
-                </li>
-            </ul>
+        <?php include 'menu.php'; ?>
         </div>
     </nav>
     <section class="dashboard">
@@ -121,16 +86,25 @@
                             <thead>
                                 <tr>
                                     <th>EMPLOYEE NAME</th>
-                                    <th>TASK ALLOCATED</th>
+                                    <th>Task Allocated</th>
+                                    <th>Task Description</th>
+                                    <th>Task Status</th>
+                                    <th>Due Date</th>
                                 </tr>
                             </thead>
                             <tbody>
                                 <tr>
                                     <td>ASHIR P</td>
                                     <td>0</td>
+                                    <td>0</td>
+                                    <td>0</td>
+                                    <td>0</td>
                                 </tr>
                                 <tr>
                                     <td>OLIVER</td>
+                                    <td>2</td>
+                                    <td>2</td>
+                                    <td>2</td>
                                     <td>2</td>
                                 </tr>
                             </tbody>
@@ -163,5 +137,5 @@
         </div>
     </section>
     <script src="script/dark_light_script.js"></script>
-    </body>
+</body>
 </html>
